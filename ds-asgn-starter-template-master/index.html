@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DS ASGN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Grovery Product Analyzer</h1>
+    <hr>
+    <p>Select an action from the drop-down menu and then click the 'Go' button to perform the action.</p>
+    <p>
+      <select id="menu">
+        <option value="display-all">Display All Products</option>
+        <option value="display-price-range">Display Price Range</option>
+        <option value="display-country-of-orgin">Display Country of Orgin </option>
+        <option value="display-random-product">Display A Random Product</option>
+        <option value="inflation">Inflation</option>
+        <option value="price-stats">Product Price Stats</option>
+        <option value="new-product">Add New Product</option>
+        <option value="remove-low">Remove All Products Price Less Than $15</option>
+        <option value="remove-product">Remove Products By Name</option>
+      </select>
+      <button id='go'>Go</button>
+    </p>
+    <hr>
+
+    <!-- Div that may be used for output -->
+    <div id="output">
+      
+    </div>
+  </main>
+
+
+  <!-- Load JavaScript -->
+  <script src='main.js'></script>
+
+</body>
+
+</html>
